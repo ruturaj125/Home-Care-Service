@@ -1,0 +1,65 @@
+<html>
+<head>
+  <!-- <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" id="bootstrap-css"/>
+  <script src="./assets/bootstrap/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./assets/js/jquery-min.js"></script> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src=./assets/js/index.js></script>
+  <link rel="stylesheet" href="./assets/css/index.css"/>
+  <style>
+	body{
+		background-image: url('./assets/img/city.jpg');
+		background-repeat: no-repeat;
+    	/*background-size: ;*/
+	}
+	h1{
+		font-family: 'Montserrat';
+	}
+  </style>
+</head>
+<body>
+	<div class="container">
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="panel panel-login" style="background-color:#EEEEEE">
+					<div class="panel-body">
+						<div class="col-md-8 col-md-offset-3">
+							<h2 class="panel-head" >Forgot Password</h2>
+							<br>
+						</div>
+
+						<div class="row">
+							<div class="col-md-12">
+								<form id="register-form" method="post" action="/forget" role="form">
+									<div class="form-group">
+										<input type="text" name="email" id="email" tabindex="1" class="form-control" placeholder="Enter Email Id here" value="">
+									</div>
+									<div class="form-group">
+										<select class="form-control" name="type" id="type">
+											<option name="customer" value="customers">Customer</option>
+											<option name="customer" value="providers">Service Provider</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="submit" name="email-submit" id="email-submit" tabindex="4" class="form-control btn btn-login col-lg-8" value="submit">
+											</div>
+										</div>
+									</div>
+								</form>
+            				</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
